@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-5-odd-even.cpp",
+      "run": "./a.out",
+      "input": "15",
+      "output": "15 is an odd integer",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW05/hw05-5-odd-even.cpp",
+      "run": "./a.out",
+      "input": "-22",
+      "output": "-22 is an even integer",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
